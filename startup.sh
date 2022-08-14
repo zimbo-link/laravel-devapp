@@ -2,7 +2,7 @@
 
 chown -R www-data:www-data /srv/storage/
 
-#composer dumpautoload
+composer dumpautoload
 
 php  $APP_HOME/artisan config:cache
 php  $APP_HOME/artisan config:clear
