@@ -40,11 +40,11 @@
           },
           {
             "name": "APP_NAME",
-            "value": "IBOT"
+            "value": "devapp"
           },
           {
             "name": "APP_URL",
-            "value": "https://www.ibot.link"
+            "value": "https://www.zimbo.link"
           },
           {
             "name": "AWS_BUCKET",
@@ -57,14 +57,6 @@
           {
             "name": "AWS_DEFAULT_REGION",
             "value": "eu-central-1"
-          },
-          {
-            "name": "AWS_LISTNER_8080",
-            "value": "arn:aws:elasticloadbalancing:eu-central-1:264605167596:listener/app/EC2Co-EcsEl-Q1UOOBHIZUXZ/55c12660f07e50a7/a7bb77d533458220"
-          },
-          {
-            "name": "AWS_LISTNER_8081",
-            "value": "arn:aws:elasticloadbalancing:eu-central-1:264605167596:listener/app/EC2Co-EcsEl-Q1UOOBHIZUXZ/55c12660f07e50a7/40986dba36ce6e1d"
           },
           {
             "name": "AWS_SECURITY_GROUP",
