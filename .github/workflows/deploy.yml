@@ -70,7 +70,7 @@ jobs:
         with:
           task-definition: ${{ steps.task-def.outputs.task-definition }}
           service: website
-          cluster: PROD
+          cluster: default
           wait-for-service-stability: false
 
       - name: Logout of Amazon ECR
