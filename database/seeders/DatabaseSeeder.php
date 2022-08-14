@@ -18,6 +18,6 @@ class DatabaseSeeder extends Seeder
             UsersTableSeeder::class,
             UsersTableSeeder::class
         ]);
-        \App\Models\People::factory(50)->create();
+       // \App\Models\People::factory(50)->create();
     }
 }
