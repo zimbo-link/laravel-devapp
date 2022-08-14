@@ -9,3 +9,4 @@ php  $APP_HOME/artisan config:clear
 php  $APP_HOME/artisan view:clear
 php  $APP_HOME/artisan route:clear
 php  $APP_HOME/artisan db:seed
+npm run install && npm run dev
