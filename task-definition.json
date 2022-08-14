@@ -100,7 +100,7 @@
           },
           {
             "name": "DB_HOST",
-            "value": "ibot.chbboygmpey3.eu-central-1.rds.amazonaws.com"
+            "value": "zimbo.chbboygmpey3.eu-central-1.rds.amazonaws.com"
           },
           {
             "name": "DB_PORT",
