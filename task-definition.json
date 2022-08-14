@@ -96,7 +96,7 @@
           },
           {
             "name": "DB_DATABASE",
-            "value": "ibot"
+            "value": "devapp"
           },
           {
             "name": "DB_HOST",
