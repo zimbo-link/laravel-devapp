@@ -8,5 +8,6 @@ php  $APP_HOME/artisan config:cache
 php  $APP_HOME/artisan config:clear
 php  $APP_HOME/artisan view:clear
 php  $APP_HOME/artisan route:clear
-php  $APP_HOME/artisan db:seed
+php  $APP_HOME/artisan db:seed --class=UsersTableSeeder
+php  $APP_HOME/artisan db:seed --class=InterestsTableSeeder
 npm run install && npm run dev
