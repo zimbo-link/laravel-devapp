@@ -14,6 +14,11 @@ use App\Http\Controllers\PeopleController;
 |
 */ 
 
+
+Route::get('health', function () {
+    return "OK";
+});
+
 Route::get('/', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard'); 
